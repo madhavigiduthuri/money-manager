@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.transaction-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    list-style-type: none;
+    border: 1px;
+    border-style: solid;
+    border-color: #cbd5e1;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+.table-header {
+    width: 20%;
+}
+.delete-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-icon {
+    width: 25px;
+    height: 25px;
+}
